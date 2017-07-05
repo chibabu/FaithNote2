@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AB31AB56D10409C976153BAF790D93 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B866BB3B41D5B74FB926861C87EE070D /* ELCAssetPicker.xib */; };
+		09B91BB8E452D2BBB0593637F372F4E7 /* ModernSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF056A10C1BCD59B7B9CEA855E80D6 /* ModernSearchBarCell.swift */; };
+		0C466BAAA29DDF209A3C9B7417F36D21 /* ModernSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443AED42813427A20FBCB05D59A6305 /* ModernSearchBarDelegate.swift */; };
+		0F70D076CFA63559F4E6D6FEB91DDEDF /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D0DC340DD43C6427650DC31AB0E8B /* ELCOverlayImageView.m */; };
+		17138F9FE80448DDEC6E79860E188749 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B329CD76FF76E60EA1597D3D3B442A2A /* ELCAssetTablePicker.m */; };
+		1CF5FB215805BAE247A9A7AD17C6ABC7 /* ELCImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC12029797416B42750BDA04DEE63 /* ELCImagePickerController-dummy.m */; };
+		1E077BF4EF10C591663AB56C376B7D51 /* ELCImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D525551ADD6E29D0BC19EA7A3027D223 /* ELCImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2093FAE635EB35639E6FB86E53A3F4CA /* ELCConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C660CE297F2139E326DD517B885FF3 /* ELCConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		213FFCC38EBDB33B678BAE0859355531 /* Pods-FaithNote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C71F3C05529304598A7B384E53A61DA /* Pods-FaithNote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F90D885A7934E35539E1BC9BD150D8 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BD653DFAE69CD4E37031B1C2AA863C /* ELCAssetCell.m */; };
+		394D8CA76CBDF703DE41394A97787A29 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = D0801C377CD2EF250BCA3756940AFA19 /* ELCAsset.m */; };
+		482FB5C646E6B4E49336B394085CE2D0 /* ModernSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E824B9663947BA431C114F69A08FB9 /* ModernSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BD91E60570654DE21E596001CD2E9C /* ELCAlbumPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D97C54CCA42C70FCEBADD8B3FF7212 /* ELCAlbumPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB4433BBDC14259E309BDC95D463BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */; };
+		4D62ADA4B36D56A1F464E3A729A6C544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C561E57D60731D9FB28B491A5DD5F2E /* UIKit.framework */; };
+		53EAEE5B187CD6E6234CD78660DB10AC /* ModernSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C444B911DEECD9062A4AF9B388E1BF6 /* ModernSearchBar-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F205916F0FACF8941D53DBD196E80F /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2C15E583C025160017E7CD2B82566A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131F4AA328FA0C717A3681C5A15ADDBD /* AssetsLibrary.framework */; };
+		5DE69AEDA157A8C9164A2A17389A320E /* ModernSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB0AB4B5B13BF131870190F28AD46B /* ModernSearchBar.swift */; };
+		711D5CEE90A15A541355BFBFD07535F7 /* ModernSearchBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E424502260910B78D988990CB6FF39A /* ModernSearchBarIcon.swift */; };
+		7589E077C4058C1AF271F99FB7E44E82 /* ELCImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57715F7EFCFCE028DF264F490C3741AC /* ELCImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7618F6C3AA246872892F392B3DF2B3F6 /* ELCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A09A767316D750A2CBC5DA64399DF202 /* ELCAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DCA761DAA789208FEA19401644E0296 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4B289CA1ABD1B758DB199B65163916 /* Overlay@2x.png */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBA8E3E11FAF97B79814780AEFB7B27 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */; };
+		96184AA1C1CE9A14B2BC6D9562A0BE5A /* ELCAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C07C1DFC8DB1461F2EB06258A4C6995 /* ELCAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C8CA693198C11F634892C6D079CCC1 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E332B4D969C034A4B8B3AE555C45FE7 /* ELCImagePickerController.m */; };
+		9AD3C2BC6935DD9AA6596F533E81C692 /* ModernSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 754897631FDC7DD13A5268387BE13595 /* ModernSearchBar.bundle */; };
+		A266F9CE9D03AB690F5DEC496CB58AE4 /* ModernSearchBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7583F171F9B0ACE977A57E9AE331A402 /* ModernSearchBarModel.swift */; };
+		A76AA1A40FC54E40E156B937E2B10C71 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E13B41E15C46BE4B5834FBC089DA2E /* ELCAlbumPickerController.xib */; };
+		AD2B5E1A5935B8C4579E84E7FB5C2DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */; };
+		B0AD19F70A9A6B095165CBE90ED962FE /* ELCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B84AA60863C570E7498EF1EA7622CD /* ELCConsole.m */; };
+		B4FF018024131663C36ED39E178D1766 /* ELCAssetTablePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2BE5B5138FE80FD63361C265F694D9 /* ELCAssetTablePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C29F4E4C4F7B58B46C17A7A0FD70114E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */; };
+		CC1792EC4C09C0E9754B864DF7299D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B9456C32C9485E91B2F7BC3311191 /* Assets.xcassets */; };
+		CD0725F9280E73F6E5AB42A1B269C532 /* ELCImagePickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1C6C3E25426E3E10A42CE374F3FB33 /* ELCImagePickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91E04C2659BDE16BB4682013CAA5C34 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 9978A3B5EBA71E8CE54BCC1C18545F60 /* Overlay.png */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D92522E91DF028D8291AA09B5BB50A /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46661EA96D1492590313D59455BB701 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2501275FE5CAC51259C95A5C47621 /* CoreLocation.framework */; };
+		E8E3F22C4A4526EEC494F9BFCB02D81F /* ELCAssetPickerFilterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8DB3BCA6B6846BB0CB3C2C77DFB337 /* ELCAssetPickerFilterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA655AC4E62EE8221C11A336B5F59BB1 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1467EAE77D3B0A2813200A447E22A32 /* ELCAssetTablePicker.xib */; };
+		EC9673B648F58644DC6EC97CAB6E9E9A /* ELCOverlayImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8245CB9ABF01E64DE6A7519D2162492 /* ELCOverlayImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE58A00F3FDF10F4DD8F85021BFBC197 /* Pods-FaithNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253BD3289887C1F46E3FBC6A1AC286EA /* Pods-FaithNote-dummy.m */; };
+		EF2CA8DBC274C0DA77A2A658C6C666A5 /* ELCAssetSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFC090F49EEC8E86737CCF739307616 /* ELCAssetSelectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA61E3E4CC7FF5451D6B38D767E0E66 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA577D0BF3CA063829DCFE9A52781663 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958F6EAA4933643815CBF58090D935FB /* ELCAlbumPickerController.m */; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC904BE2ECA6B32686CD2415FA75867 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CB0FA35BA5C9152A1F0EFB7F16FCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		73BF1B14B6A46CE718FD7A893FF8D5B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4A3BF987D2A9801D702D19BB0E626E;
+			remoteInfo = ELCImagePickerController;
+		};
+		8EC8F7BA2406B04CEFF5E7FF5147DEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3947CFF5C2B3AE8B6E09B96A5789E59E;
+			remoteInfo = ModernSearchBar;
+		};
+		D64E642622A3A804530F1E280D7118FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD7B8AF641D66E0D60F5040F37607DA;
+			remoteInfo = "ModernSearchBar-ModernSearchBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0443AED42813427A20FBCB05D59A6305 /* ModernSearchBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarDelegate.swift; path = Pod/Classes/ModernSearchBarDelegate.swift; sourceTree = "<group>"; };
+		074A0F039520DFAA42B1CCD3F69EC1AC /* ELCImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ELCImagePickerController.framework; path = ELCImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC904BE2ECA6B32686CD2415FA75867 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		0C55232816330954845B2008F65A0A58 /* Pods-FaithNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaithNote.release.xcconfig"; sourceTree = "<group>"; };
+		0DA61E3E4CC7FF5451D6B38D767E0E66 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		0E424502260910B78D988990CB6FF39A /* ModernSearchBarIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarIcon.swift; path = Pod/Classes/ModernSearchBarIcon.swift; sourceTree = "<group>"; };
+		131F4AA328FA0C717A3681C5A15ADDBD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		18D97C54CCA42C70FCEBADD8B3FF7212 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = Classes/ELCImagePicker/ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		1A4B289CA1ABD1B758DB199B65163916 /* Overlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Overlay@2x.png"; path = "Classes/ELCImagePicker/Resources/Overlay@2x.png"; sourceTree = "<group>"; };
+		1FFC090F49EEC8E86737CCF739307616 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetSelectionDelegate.h; path = Classes/ELCImagePicker/ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		253BD3289887C1F46E3FBC6A1AC286EA /* Pods-FaithNote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaithNote-dummy.m"; sourceTree = "<group>"; };
+		25C660CE297F2139E326DD517B885FF3 /* ELCConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCConsole.h; path = Classes/ELCImagePicker/ELCConsole.h; sourceTree = "<group>"; };
+		267CDFFFD5748F3D3B15DA46D0E39F2F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		279956754AB0BF87EC021D02C5A82900 /* Pods-FaithNote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaithNote-acknowledgements.plist"; sourceTree = "<group>"; };
+		287843A6B49BE2B684801398661AEFF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A224AE826821C18F4F11589F73B730C /* ELCImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELCImagePickerController.xcconfig; sourceTree = "<group>"; };
+		2AC2501275FE5CAC51259C95A5C47621 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		2B0BA20970C43055CF7CE921553D19EF /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		2C71F3C05529304598A7B384E53A61DA /* Pods-FaithNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaithNote-umbrella.h"; sourceTree = "<group>"; };
+		3C62D7902861C16B182992C6C8E1C575 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		46D849C6916AF15C8540C37E16FE7C6C /* Pods-FaithNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaithNote.debug.xcconfig"; sourceTree = "<group>"; };
+		46E824B9663947BA431C114F69A08FB9 /* ModernSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernSearchBar-umbrella.h"; sourceTree = "<group>"; };
+		48F205916F0FACF8941D53DBD196E80F /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4BA8EC138AACFC997FCEF98AAC397BF9 /* ResourceBundle-ModernSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ModernSearchBar-Info.plist"; sourceTree = "<group>"; };
+		4C444B911DEECD9062A4AF9B388E1BF6 /* ModernSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernSearchBar-dummy.m"; sourceTree = "<group>"; };
+		4CEB0AB4B5B13BF131870190F28AD46B /* ModernSearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBar.swift; path = Pod/Classes/ModernSearchBar.swift; sourceTree = "<group>"; };
+		4D8DB3BCA6B6846BB0CB3C2C77DFB337 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetPickerFilterDelegate.h; path = Classes/ELCImagePicker/ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		4D9D0DC340DD43C6427650DC31AB0E8B /* ELCOverlayImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCOverlayImageView.m; path = Classes/ELCImagePicker/ELCOverlayImageView.m; sourceTree = "<group>"; };
+		53BD653DFAE69CD4E37031B1C2AA863C /* ELCAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAssetCell.m; path = Classes/ELCImagePicker/ELCAssetCell.m; sourceTree = "<group>"; };
+		56061FA5DD4EC8769451562DFEC27EC3 /* Pods_FaithNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaithNote.framework; path = "Pods-FaithNote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57715F7EFCFCE028DF264F490C3741AC /* ELCImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = Classes/ELCImagePicker/ELCImagePickerController.h; sourceTree = "<group>"; };
+		580E1739BCE51AF047974E5608FD409F /* Pods-FaithNote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaithNote-resources.sh"; sourceTree = "<group>"; };
+		6260321CF12C2C79F1731FF6A16DE19D /* ELCImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ELCImagePickerController.modulemap; sourceTree = "<group>"; };
+		6D48ECA5AD7ADA5CE144AFE1427D0727 /* Pods-FaithNote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaithNote.modulemap"; sourceTree = "<group>"; };
+		754897631FDC7DD13A5268387BE13595 /* ModernSearchBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ModernSearchBar.bundle; path = ModernSearchBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7583F171F9B0ACE977A57E9AE331A402 /* ModernSearchBarModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarModel.swift; path = Pod/Classes/ModernSearchBarModel.swift; sourceTree = "<group>"; };
+		78549422C34D6E7F3FC322346D76878A /* Pods-FaithNote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaithNote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B7B9456C32C9485E91B2F7BC3311191 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Pod/Assets.xcassets; sourceTree = "<group>"; };
+		7BDBD8553A79DA4D9389CB3BAF3D1485 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		7C561E57D60731D9FB28B491A5DD5F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		81D92522E91DF028D8291AA09B5BB50A /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		867C44CC2EBB78530081F48716967B07 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		8A344DB1A68C9CF0D576E28C18DAF81C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2BE5B5138FE80FD63361C265F694D9 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetTablePicker.h; path = Classes/ELCImagePicker/ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		8C07C1DFC8DB1461F2EB06258A4C6995 /* ELCAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = Classes/ELCImagePicker/ELCAssetCell.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958F6EAA4933643815CBF58090D935FB /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAlbumPickerController.m; path = Classes/ELCImagePicker/ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		96ACC12029797416B42750BDA04DEE63 /* ELCImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELCImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		9978A3B5EBA71E8CE54BCC1C18545F60 /* Overlay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Overlay.png; path = Classes/ELCImagePicker/Resources/Overlay.png; sourceTree = "<group>"; };
+		9E332B4D969C034A4B8B3AE555C45FE7 /* ELCImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = Classes/ELCImagePicker/ELCImagePickerController.m; sourceTree = "<group>"; };
+		9FBA8E3E11FAF97B79814780AEFB7B27 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		A09A767316D750A2CBC5DA64399DF202 /* ELCAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCAsset.h; path = Classes/ELCImagePicker/ELCAsset.h; sourceTree = "<group>"; };
+		AF95798C82B6F6E333B3307922FF1C63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B329CD76FF76E60EA1597D3D3B442A2A /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAssetTablePicker.m; path = Classes/ELCImagePicker/ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B8245CB9ABF01E64DE6A7519D2162492 /* ELCOverlayImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCOverlayImageView.h; path = Classes/ELCImagePicker/ELCOverlayImageView.h; sourceTree = "<group>"; };
+		B866BB3B41D5B74FB926861C87EE070D /* ELCAssetPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAssetPicker.xib; path = Classes/ELCImagePicker/Resources/ELCAssetPicker.xib; sourceTree = "<group>"; };
+		C4EF056A10C1BCD59B7B9CEA855E80D6 /* ModernSearchBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarCell.swift; path = Pod/Classes/ModernSearchBarCell.swift; sourceTree = "<group>"; };
+		CC1C6C3E25426E3E10A42CE374F3FB33 /* ELCImagePickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerHeader.h; path = Classes/ELCImagePicker/ELCImagePickerHeader.h; sourceTree = "<group>"; };
+		D0801C377CD2EF250BCA3756940AFA19 /* ELCAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCAsset.m; path = Classes/ELCImagePicker/ELCAsset.m; sourceTree = "<group>"; };
+		D1467EAE77D3B0A2813200A447E22A32 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAssetTablePicker.xib; path = Classes/ELCImagePicker/Resources/ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernSearchBar.xcconfig; sourceTree = "<group>"; };
+		D525551ADD6E29D0BC19EA7A3027D223 /* ELCImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELCImagePickerController-umbrella.h"; sourceTree = "<group>"; };
+		D6E94D85E2972678690D342A8F4588FE /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D8B84AA60863C570E7498EF1EA7622CD /* ELCConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELCConsole.m; path = Classes/ELCImagePicker/ELCConsole.m; sourceTree = "<group>"; };
+		E0522842B63E7AF2A685A2A11C0EDCE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E0D784FB125C1D870C71359191A8DC /* ModernSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernSearchBar-prefix.pch"; sourceTree = "<group>"; };
+		E6255B39B92B9372A67509D2DDC5DEE5 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		F1E13B41E15C46BE4B5834FBC089DA2E /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ELCAlbumPickerController.xib; path = Classes/ELCImagePicker/Resources/ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		F25D1C579ACF6D8B22AC3ADBDD2CFB95 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		F8ABDFAB5C6296486BC889152F892C23 /* Pods-FaithNote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaithNote-frameworks.sh"; sourceTree = "<group>"; };
+		FA0367C90F90595D7D69FB929D5F394D /* ELCImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELCImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		FCF8326B9D90943641052B51316486EB /* ModernSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ModernSearchBar.modulemap; sourceTree = "<group>"; };
+		FE9CBC1229A3C5F74B3C914DF09C208F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA226D2EEA8B6AD32C47515B9AFD10A /* ModernSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModernSearchBar.framework; path = ModernSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42359C29A5D82D3915667B4B44DE8BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BF485B4D43DFEA04CF934E4DCC443D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F4E4C4F7B58B46C17A7A0FD70114E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87447561B4B33A05C73A79FA9CCB7B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C15E583C025160017E7CD2B82566A /* AssetsLibrary.framework in Frameworks */,
+				E46661EA96D1492590313D59455BB701 /* CoreLocation.framework in Frameworks */,
+				4CB4433BBDC14259E309BDC95D463BBC /* Foundation.framework in Frameworks */,
+				4D62ADA4B36D56A1F464E3A729A6C544 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E02270212426D30766852B9CAC35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2B5E1A5935B8C4579E84E7FB5C2DB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0260E2374166395DCF7DC4D2CF5672B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				867C44CC2EBB78530081F48716967B07 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92132FA57A26660F390935BAFD62D1DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15879AD9E34D309A15790D934A390836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6255B39B92B9372A67509D2DDC5DEE5 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E65E71F67EF593D0BC01D8CE51FE7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B9456C32C9485E91B2F7BC3311191 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29858D9B12E5CFECCAAFBB74AAD2C3A0 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				48F205916F0FACF8941D53DBD196E80F /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		2C39CABD8B84DE2052DFAE3E305E96E2 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0260E2374166395DCF7DC4D2CF5672B3 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		52ED563B354A8C91E5191F37FD248952 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				15879AD9E34D309A15790D934A390836 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		5426553457984CA2EF05FB8D7E9AC56C /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				29858D9B12E5CFECCAAFBB74AAD2C3A0 /* Defines */,
+				E64CBA94F930F3FABD7103CC1E366074 /* NSData+zlib */,
+				B57322543244A61C6294C3CBC1C8AFD0 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		54A7E1377631F1C4ADB3F568E1908182 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F6CE203A41B375FCFE8A848EA095D /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		696947093A8554129827325DA14C0B52 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				DFBCA7208661EA4376047239F6EA2238 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		721C01B9D64842902E8F2C2CBC2C96F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				795BC1B4DC7983D341CC93332136ACEB /* Pods-FaithNote */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72470EEF091AFDDB85781BEC8D93AFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267CDFFFD5748F3D3B15DA46D0E39F2F /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		795BC1B4DC7983D341CC93332136ACEB /* Pods-FaithNote */ = {
+			isa = PBXGroup;
+			children = (
+				E0522842B63E7AF2A685A2A11C0EDCE1 /* Info.plist */,
+				6D48ECA5AD7ADA5CE144AFE1427D0727 /* Pods-FaithNote.modulemap */,
+				78549422C34D6E7F3FC322346D76878A /* Pods-FaithNote-acknowledgements.markdown */,
+				279956754AB0BF87EC021D02C5A82900 /* Pods-FaithNote-acknowledgements.plist */,
+				253BD3289887C1F46E3FBC6A1AC286EA /* Pods-FaithNote-dummy.m */,
+				F8ABDFAB5C6296486BC889152F892C23 /* Pods-FaithNote-frameworks.sh */,
+				580E1739BCE51AF047974E5608FD409F /* Pods-FaithNote-resources.sh */,
+				2C71F3C05529304598A7B384E53A61DA /* Pods-FaithNote-umbrella.h */,
+				46D849C6916AF15C8540C37E16FE7C6C /* Pods-FaithNote.debug.xcconfig */,
+				0C55232816330954845B2008F65A0A58 /* Pods-FaithNote.release.xcconfig */,
+			);
+			name = "Pods-FaithNote";
+			path = "Target Support Files/Pods-FaithNote";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				935D55E0C67A4AD6C7406D326172B3F1 /* Pods */,
+				FEF12B7141E746D8D674EFD4E6774B74 /* Products */,
+				721C01B9D64842902E8F2C2CBC2C96F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2C44925A7FB3215BC5B65573873659 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				72470EEF091AFDDB85781BEC8D93AFFF /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		8D159BAC60B2797CAEF83FFF108DBF8A /* ModernSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB0AB4B5B13BF131870190F28AD46B /* ModernSearchBar.swift */,
+				C4EF056A10C1BCD59B7B9CEA855E80D6 /* ModernSearchBarCell.swift */,
+				0443AED42813427A20FBCB05D59A6305 /* ModernSearchBarDelegate.swift */,
+				0E424502260910B78D988990CB6FF39A /* ModernSearchBarIcon.swift */,
+				7583F171F9B0ACE977A57E9AE331A402 /* ModernSearchBarModel.swift */,
+				27E65E71F67EF593D0BC01D8CE51FE7F /* Resources */,
+				A2127878B660B16CD16ED44BF062BB96 /* Support Files */,
+			);
+			name = ModernSearchBar;
+			path = ModernSearchBar;
+			sourceTree = "<group>";
+		};
+		92132FA57A26660F390935BAFD62D1DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				131F4AA328FA0C717A3681C5A15ADDBD /* AssetsLibrary.framework */,
+				2AC2501275FE5CAC51259C95A5C47621 /* CoreLocation.framework */,
+				B3313D056F986C3E84F65A52A89244F7 /* Foundation.framework */,
+				7C561E57D60731D9FB28B491A5DD5F2E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		935D55E0C67A4AD6C7406D326172B3F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A85429B977BDE1C2C1C97037E9A1A213 /* ELCImagePickerController */,
+				54A7E1377631F1C4ADB3F568E1908182 /* Firebase */,
+				8A2C44925A7FB3215BC5B65573873659 /* FirebaseAnalytics */,
+				52ED563B354A8C91E5191F37FD248952 /* FirebaseCore */,
+				696947093A8554129827325DA14C0B52 /* FirebaseInstanceID */,
+				2C39CABD8B84DE2052DFAE3E305E96E2 /* Google-Mobile-Ads-SDK */,
+				5426553457984CA2EF05FB8D7E9AC56C /* GoogleToolboxForMac */,
+				8D159BAC60B2797CAEF83FFF108DBF8A /* ModernSearchBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2127878B660B16CD16ED44BF062BB96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF95798C82B6F6E333B3307922FF1C63 /* Info.plist */,
+				FCF8326B9D90943641052B51316486EB /* ModernSearchBar.modulemap */,
+				D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */,
+				4C444B911DEECD9062A4AF9B388E1BF6 /* ModernSearchBar-dummy.m */,
+				E0E0D784FB125C1D870C71359191A8DC /* ModernSearchBar-prefix.pch */,
+				46E824B9663947BA431C114F69A08FB9 /* ModernSearchBar-umbrella.h */,
+				4BA8EC138AACFC997FCEF98AAC397BF9 /* ResourceBundle-ModernSearchBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ModernSearchBar";
+			sourceTree = "<group>";
+		};
+		A85429B977BDE1C2C1C97037E9A1A213 /* ELCImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				18D97C54CCA42C70FCEBADD8B3FF7212 /* ELCAlbumPickerController.h */,
+				958F6EAA4933643815CBF58090D935FB /* ELCAlbumPickerController.m */,
+				A09A767316D750A2CBC5DA64399DF202 /* ELCAsset.h */,
+				D0801C377CD2EF250BCA3756940AFA19 /* ELCAsset.m */,
+				8C07C1DFC8DB1461F2EB06258A4C6995 /* ELCAssetCell.h */,
+				53BD653DFAE69CD4E37031B1C2AA863C /* ELCAssetCell.m */,
+				4D8DB3BCA6B6846BB0CB3C2C77DFB337 /* ELCAssetPickerFilterDelegate.h */,
+				1FFC090F49EEC8E86737CCF739307616 /* ELCAssetSelectionDelegate.h */,
+				8B2BE5B5138FE80FD63361C265F694D9 /* ELCAssetTablePicker.h */,
+				B329CD76FF76E60EA1597D3D3B442A2A /* ELCAssetTablePicker.m */,
+				25C660CE297F2139E326DD517B885FF3 /* ELCConsole.h */,
+				D8B84AA60863C570E7498EF1EA7622CD /* ELCConsole.m */,
+				57715F7EFCFCE028DF264F490C3741AC /* ELCImagePickerController.h */,
+				9E332B4D969C034A4B8B3AE555C45FE7 /* ELCImagePickerController.m */,
+				CC1C6C3E25426E3E10A42CE374F3FB33 /* ELCImagePickerHeader.h */,
+				B8245CB9ABF01E64DE6A7519D2162492 /* ELCOverlayImageView.h */,
+				4D9D0DC340DD43C6427650DC31AB0E8B /* ELCOverlayImageView.m */,
+				AC55F59B0DF02A31611C185662ACF293 /* Resources */,
+				D70E785AAE5731836D6C6B76314AED03 /* Support Files */,
+			);
+			name = ELCImagePickerController;
+			path = ELCImagePickerController;
+			sourceTree = "<group>";
+		};
+		AC55F59B0DF02A31611C185662ACF293 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1E13B41E15C46BE4B5834FBC089DA2E /* ELCAlbumPickerController.xib */,
+				B866BB3B41D5B74FB926861C87EE070D /* ELCAssetPicker.xib */,
+				D1467EAE77D3B0A2813200A447E22A32 /* ELCAssetTablePicker.xib */,
+				9978A3B5EBA71E8CE54BCC1C18545F60 /* Overlay.png */,
+				1A4B289CA1ABD1B758DB199B65163916 /* Overlay@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD7F6CE203A41B375FCFE8A848EA095D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7BDBD8553A79DA4D9389CB3BAF3D1485 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B57322543244A61C6294C3CBC1C8AFD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25D1C579ACF6D8B22AC3ADBDD2CFB95 /* GoogleToolboxForMac.modulemap */,
+				2B0BA20970C43055CF7CE921553D19EF /* GoogleToolboxForMac.xcconfig */,
+				0BC904BE2ECA6B32686CD2415FA75867 /* GoogleToolboxForMac-dummy.m */,
+				3C62D7902861C16B182992C6C8E1C575 /* GoogleToolboxForMac-prefix.pch */,
+				9FBA8E3E11FAF97B79814780AEFB7B27 /* GoogleToolboxForMac-umbrella.h */,
+				FE9CBC1229A3C5F74B3C914DF09C208F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		D70E785AAE5731836D6C6B76314AED03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6260321CF12C2C79F1731FF6A16DE19D /* ELCImagePickerController.modulemap */,
+				2A224AE826821C18F4F11589F73B730C /* ELCImagePickerController.xcconfig */,
+				96ACC12029797416B42750BDA04DEE63 /* ELCImagePickerController-dummy.m */,
+				FA0367C90F90595D7D69FB929D5F394D /* ELCImagePickerController-prefix.pch */,
+				D525551ADD6E29D0BC19EA7A3027D223 /* ELCImagePickerController-umbrella.h */,
+				287843A6B49BE2B684801398661AEFF0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ELCImagePickerController";
+			sourceTree = "<group>";
+		};
+		DFBCA7208661EA4376047239F6EA2238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E94D85E2972678690D342A8F4588FE /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64CBA94F930F3FABD7103CC1E366074 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				81D92522E91DF028D8291AA09B5BB50A /* GTMNSData+zlib.h */,
+				0DA61E3E4CC7FF5451D6B38D767E0E66 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		FEF12B7141E746D8D674EFD4E6774B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074A0F039520DFAA42B1CCD3F69EC1AC /* ELCImagePickerController.framework */,
+				8A344DB1A68C9CF0D576E28C18DAF81C /* GoogleToolboxForMac.framework */,
+				754897631FDC7DD13A5268387BE13595 /* ModernSearchBar.bundle */,
+				FFA226D2EEA8B6AD32C47515B9AFD10A /* ModernSearchBar.framework */,
+				56061FA5DD4EC8769451562DFEC27EC3 /* Pods_FaithNote.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25A8C4534C54F75F354A13C4488100A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482FB5C646E6B4E49336B394085CE2D0 /* ModernSearchBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C80EF4E233B251EE7F4C3C00FB59F58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FFCC38EBDB33B678BAE0859355531 /* Pods-FaithNote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534B7A47B60C70DACB1ACD789B8CBD89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BD91E60570654DE21E596001CD2E9C /* ELCAlbumPickerController.h in Headers */,
+				7618F6C3AA246872892F392B3DF2B3F6 /* ELCAsset.h in Headers */,
+				96184AA1C1CE9A14B2BC6D9562A0BE5A /* ELCAssetCell.h in Headers */,
+				E8E3F22C4A4526EEC494F9BFCB02D81F /* ELCAssetPickerFilterDelegate.h in Headers */,
+				EF2CA8DBC274C0DA77A2A658C6C666A5 /* ELCAssetSelectionDelegate.h in Headers */,
+				B4FF018024131663C36ED39E178D1766 /* ELCAssetTablePicker.h in Headers */,
+				2093FAE635EB35639E6FB86E53A3F4CA /* ELCConsole.h in Headers */,
+				1E077BF4EF10C591663AB56C376B7D51 /* ELCImagePickerController-umbrella.h in Headers */,
+				7589E077C4058C1AF271F99FB7E44E82 /* ELCImagePickerController.h in Headers */,
+				CD0725F9280E73F6E5AB42A1B269C532 /* ELCImagePickerHeader.h in Headers */,
+				EC9673B648F58644DC6EC97CAB6E9E9A /* ELCOverlayImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 8A344DB1A68C9CF0D576E28C18DAF81C /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554A48D5F9F79C38CF8986B9A13106B1 /* Build configuration list for PBXNativeTarget "ModernSearchBar" */;
+			buildPhases = (
+				646FC39744309060DCF713C303B15FDA /* Sources */,
+				87E02270212426D30766852B9CAC35D2 /* Frameworks */,
+				CB303A2AAB36CE89B70923F871856F34 /* Resources */,
+				25A8C4534C54F75F354A13C4488100A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B5FEAC3003A1E9B16481BBB47FC7D1 /* PBXTargetDependency */,
+			);
+			name = ModernSearchBar;
+			productName = ModernSearchBar;
+			productReference = FFA226D2EEA8B6AD32C47515B9AFD10A /* ModernSearchBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A4A3BF987D2A9801D702D19BB0E626E /* ELCImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873DF231358891697CC9B79A2B507E87 /* Build configuration list for PBXNativeTarget "ELCImagePickerController" */;
+			buildPhases = (
+				77DF25C34B91A88FC2DD1CAB9BAB5F0A /* Sources */,
+				87447561B4B33A05C73A79FA9CCB7B7F /* Frameworks */,
+				534B7A47B60C70DACB1ACD789B8CBD89 /* Headers */,
+				50449DA28625A5F5508B1EB921DA1A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELCImagePickerController;
+			productName = ELCImagePickerController;
+			productReference = 074A0F039520DFAA42B1CCD3F69EC1AC /* ELCImagePickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F998D847C43ABA6760F559C425CF26CD /* Build configuration list for PBXNativeTarget "ModernSearchBar-ModernSearchBar" */;
+			buildPhases = (
+				6153896BC4140EB9D0C6AD3C3ADEB9CF /* Sources */,
+				42359C29A5D82D3915667B4B44DE8BA7 /* Frameworks */,
+				E0B6FE78F3454C779FEE275E892DA196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModernSearchBar-ModernSearchBar";
+			productName = "ModernSearchBar-ModernSearchBar";
+			productReference = 754897631FDC7DD13A5268387BE13595 /* ModernSearchBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CD06FFC1C649DD3ED3C7323B42A788B9 /* Pods-FaithNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5AB9D1C9979F96518E03F654690F04 /* Build configuration list for PBXNativeTarget "Pods-FaithNote" */;
+			buildPhases = (
+				92F50924206AFC91914A0836B1B58340 /* Sources */,
+				52BF485B4D43DFEA04CF934E4DCC443D /* Frameworks */,
+				4C80EF4E233B251EE7F4C3C00FB59F58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89888E0DBBCB1252F9CD62D2C11B8D65 /* PBXTargetDependency */,
+				A8B5AD23F82D8E04831AC8C54BE2008F /* PBXTargetDependency */,
+				2DFE8327718301BC0EA7B2533E397F1B /* PBXTargetDependency */,
+			);
+			name = "Pods-FaithNote";
+			productName = "Pods-FaithNote";
+			productReference = 56061FA5DD4EC8769451562DFEC27EC3 /* Pods_FaithNote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEF12B7141E746D8D674EFD4E6774B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4A3BF987D2A9801D702D19BB0E626E /* ELCImagePickerController */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */,
+				5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */,
+				CD06FFC1C649DD3ED3C7323B42A788B9 /* Pods-FaithNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50449DA28625A5F5508B1EB921DA1A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76AA1A40FC54E40E156B937E2B10C71 /* ELCAlbumPickerController.xib in Resources */,
+				09AB31AB56D10409C976153BAF790D93 /* ELCAssetPicker.xib in Resources */,
+				EA655AC4E62EE8221C11A336B5F59BB1 /* ELCAssetTablePicker.xib in Resources */,
+				D91E04C2659BDE16BB4682013CAA5C34 /* Overlay.png in Resources */,
+				7DCA761DAA789208FEA19401644E0296 /* Overlay@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB303A2AAB36CE89B70923F871856F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD3C2BC6935DD9AA6596F533E81C692 /* ModernSearchBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B6FE78F3454C779FEE275E892DA196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1792EC4C09C0E9754B864DF7299D66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6153896BC4140EB9D0C6AD3C3ADEB9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646FC39744309060DCF713C303B15FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EAEE5B187CD6E6234CD78660DB10AC /* ModernSearchBar-dummy.m in Sources */,
+				5DE69AEDA157A8C9164A2A17389A320E /* ModernSearchBar.swift in Sources */,
+				09B91BB8E452D2BBB0593637F372F4E7 /* ModernSearchBarCell.swift in Sources */,
+				0C466BAAA29DDF209A3C9B7417F36D21 /* ModernSearchBarDelegate.swift in Sources */,
+				711D5CEE90A15A541355BFBFD07535F7 /* ModernSearchBarIcon.swift in Sources */,
+				A266F9CE9D03AB690F5DEC496CB58AE4 /* ModernSearchBarModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DF25C34B91A88FC2DD1CAB9BAB5F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA577D0BF3CA063829DCFE9A52781663 /* ELCAlbumPickerController.m in Sources */,
+				394D8CA76CBDF703DE41394A97787A29 /* ELCAsset.m in Sources */,
+				22F90D885A7934E35539E1BC9BD150D8 /* ELCAssetCell.m in Sources */,
+				17138F9FE80448DDEC6E79860E188749 /* ELCAssetTablePicker.m in Sources */,
+				B0AD19F70A9A6B095165CBE90ED962FE /* ELCConsole.m in Sources */,
+				1CF5FB215805BAE247A9A7AD17C6ABC7 /* ELCImagePickerController-dummy.m in Sources */,
+				96C8CA693198C11F634892C6D079CCC1 /* ELCImagePickerController.m in Sources */,
+				0F70D076CFA63559F4E6D6FEB91DDEDF /* ELCOverlayImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F50924206AFC91914A0836B1B58340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE58A00F3FDF10F4DD8F85021BFBC197 /* Pods-FaithNote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B5FEAC3003A1E9B16481BBB47FC7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ModernSearchBar-ModernSearchBar";
+			target = 5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */;
+			targetProxy = D64E642622A3A804530F1E280D7118FA /* PBXContainerItemProxy */;
+		};
+		2DFE8327718301BC0EA7B2533E397F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModernSearchBar;
+			target = 3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */;
+			targetProxy = 8EC8F7BA2406B04CEFF5E7FF5147DEDB /* PBXContainerItemProxy */;
+		};
+		89888E0DBBCB1252F9CD62D2C11B8D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ELCImagePickerController;
+			target = 4A4A3BF987D2A9801D702D19BB0E626E /* ELCImagePickerController */;
+			targetProxy = 73BF1B14B6A46CE718FD7A893FF8D5B6 /* PBXContainerItemProxy */;
+		};
+		A8B5AD23F82D8E04831AC8C54BE2008F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 24CB0FA35BA5C9152A1F0EFB7F16FCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB98D36828044263F63CF2002CDC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ModernSearchBar/ModernSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ModernSearchBar/ModernSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F0E7B043B7B7AD90D346D1C52F2C18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModernSearchBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/ResourceBundle-ModernSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		47FDE88C340BEE9685037177EEE10614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A224AE826821C18F4F11589F73B730C /* ELCImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ELCImagePickerController/ELCImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ELCImagePickerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ELCImagePickerController/ELCImagePickerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ELCImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0BA20970C43055CF7CE921553D19EF /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FAD56CFDB5BFFF9A2394FFD9CD93252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D849C6916AF15C8540C37E16FE7C6C /* Pods-FaithNote.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaithNote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaithNote/Pods-FaithNote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaithNote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73F692E675F05CE7C15FB07613020BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ModernSearchBar/ModernSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ModernSearchBar/ModernSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE1FF8696247B9041AE9892B52A39AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4808771975D7CDEDFB00B2002DE50B2 /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModernSearchBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/ResourceBundle-ModernSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0BA20970C43055CF7CE921553D19EF /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C26D2775F109839CCF69464D4C897B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A224AE826821C18F4F11589F73B730C /* ELCImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ELCImagePickerController/ELCImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ELCImagePickerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ELCImagePickerController/ELCImagePickerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ELCImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBC6A7C4E030B92737E0715393606065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C55232816330954845B2008F65A0A58 /* Pods-FaithNote.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaithNote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaithNote/Pods-FaithNote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaithNote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554A48D5F9F79C38CF8986B9A13106B1 /* Build configuration list for PBXNativeTarget "ModernSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F692E675F05CE7C15FB07613020BD4 /* Debug */,
+				0CB98D36828044263F63CF2002CDC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873DF231358891697CC9B79A2B507E87 /* Build configuration list for PBXNativeTarget "ELCImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26D2775F109839CCF69464D4C897B23 /* Debug */,
+				47FDE88C340BEE9685037177EEE10614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5AB9D1C9979F96518E03F654690F04 /* Build configuration list for PBXNativeTarget "Pods-FaithNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAD56CFDB5BFFF9A2394FFD9CD93252 /* Debug */,
+				FBC6A7C4E030B92737E0715393606065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F998D847C43ABA6760F559C425CF26CD /* Build configuration list for PBXNativeTarget "ModernSearchBar-ModernSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E7B043B7B7AD90D346D1C52F2C18A /* Debug */,
+				AE1FF8696247B9041AE9892B52A39AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

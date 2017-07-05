@@ -1,0 +1,55 @@
+PODS:
+  - ELCImagePickerController (0.2.0)
+  - Firebase (3.13.0):
+    - Firebase/Core (= 3.13.0)
+  - Firebase/AdMob (3.13.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.17.0)
+  - Firebase/Analytics (3.13.0):
+    - Firebase/Core
+  - Firebase/Core (3.13.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.0)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.5.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.9)
+  - Google-Mobile-Ads-SDK (7.17.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - ModernSearchBar (1.4)
+
+DEPENDENCIES:
+  - ELCImagePickerController (from `https://github.com/B-Sides/ELCImagePickerController.git`)
+  - Firebase
+  - Firebase/AdMob
+  - Firebase/Analytics
+  - Firebase/Core
+  - ModernSearchBar
+
+EXTERNAL SOURCES:
+  ELCImagePickerController:
+    :git: https://github.com/B-Sides/ELCImagePickerController.git
+
+CHECKOUT OPTIONS:
+  ELCImagePickerController:
+    :commit: a96964e7ab9d2bfc3cefe48038985ba4db8adf47
+    :git: https://github.com/B-Sides/ELCImagePickerController.git
+
+SPEC CHECKSUMS:
+  ELCImagePickerController: b1b7084434a7d49f2cfc916bde1f3ba353d38de9
+  Firebase: 5bc34d7b5ff5792e3386c8b28dc6265deeab0da4
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseCore: 1c0a13bf59bb95cdd19577252499f0ec6a03e999
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  Google-Mobile-Ads-SDK: a8bf4211624999b73e4184be516f94770b139525
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  ModernSearchBar: d888b62f960c4d91f8662f0720e1544d19847e7f
+
+PODFILE CHECKSUM: ffb304ab0b36e9c5199760d50facc3611053be41
+
+COCOAPODS: 1.2.1
